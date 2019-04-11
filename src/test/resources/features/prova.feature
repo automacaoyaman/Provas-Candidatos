@@ -3,7 +3,7 @@
 Funcionalidade: Prova Yaman Java BDD
 
 #***************************************************Positivos*************************************************************************
-@cadastro @positivo
+@cadastro @positivo 
 Esquema do Cenario: Cadastro
     Dado que foi acessado o site "<site>"
     Quando inserir o "<nome>" o "<email>" e a "<senha>" valida
@@ -23,7 +23,7 @@ Esquema do Cenario: Login
         |site                                          |email            |senha       |mensagem          |
         |https://srbarriga.herokuapp.com/login         |prova9@yaman.com |123456789   |Bem vindo, yamano!|
 
-@conta @positivo @tati
+@conta @positivo  @tati
 Esquema do Cenario: Conta
     Dado que estou logada no sistema com "<email>" e "<senha>" 
   	E clico no menu contras e submenu Adicionar
