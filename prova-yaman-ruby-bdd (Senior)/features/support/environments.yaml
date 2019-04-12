@@ -1,0 +1,5 @@
+prod: 
+  home: 'https://srbarriga.herokuapp.com/'
+qa:
+  home: 'https://srbarriga.herokuapp.com'
+homol:
