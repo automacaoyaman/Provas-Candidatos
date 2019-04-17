@@ -3,7 +3,7 @@
 
 Dado("que eu acessso a home do site srbarriga") do
     @cadastro = SrBarrigaCadastro.new
-    @cadastro.load
+    @cadastro.load()
 end
 
 Quando("eu preencher meus dados de cadastro") do

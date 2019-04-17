@@ -16,7 +16,6 @@ BROWSER = 'chrome' unless ENV.key?('browser' || 'BROWSER')
 
 Capybara.default_max_wait_time = 10
 
-
 Capybara.register_driver :selenium do |app|
   if BROWSER.eql?('chrome')
     caps = Selenium::WebDriver::Remote::Capabilities.chrome(
